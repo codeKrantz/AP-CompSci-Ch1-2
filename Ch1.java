@@ -38,6 +38,10 @@ Run time errors - basically an infinat loop where the code is never done
 System.out.println("Hello "); // println() means that the output will go on a brand new line. also ends the line  print() is used
 System.out.print("Beautiful ");
 System.out.print("World"); // print() simply means the output will be put on the current line
+System.out.println("--------------------------------------");
+
+// outside of using "" variables will print their value and number like 3 simply print their value
+//However if a varibale like side1 exists it will not print because of the number 1
 
 }
 
