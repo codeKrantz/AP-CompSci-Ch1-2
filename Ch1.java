@@ -43,6 +43,21 @@ System.out.println("--------------------------------------");
 // outside of using "" variables will print their value and number like 3 simply print their value
 //However if a varibale like side1 exists it will not print because of the number 1
 
+
+
+// Variable assingment
+//ALL varibales must have a assigned data type to an identifier
+// SYNTAX: type identifier = data; / the = opereratior assigns value and the ; denotes the end of a line
+//example:
+
+int one = 1;
+double oneHalf = 1.5;
+String stringOne = "One";
+
+//We can use a concatenation operator, the +, to combine a string with a variable inside of the print statement.
+System.out.println(one+" "+oneHalf+" "+stringOne);
+System.out.println("----------------------------------------");
+
 }
 
 
