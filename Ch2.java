@@ -41,8 +41,33 @@ An int that is the index of the first occurrence of aString in the String. It wi
 
 
 
+ /*
+  * Given that “A” comes before “a” in the dictionary and the following variables have been defined and initialized, 
+  which is true?
+String str1 = “january”;
+String str2 = “June”;
+String str3 = “July”;
 
 
- 
+str1.compareTo(str3) < 0
+str3.compareTo(str2) > 0
+str1.compareTo(str2) < 0
+str1.compareTo(str2) > 0
+str2.compareTo(str3) < 0
+
+  */
+
+
+
+  String str1 = "january";
+  String str2 = "June";
+  String str3 = "July";
+  System.out.println(str2.compareTo(str3)); 
+  //str3.compareTo(str2) 
+  //str1.compareTo(str2) 
+  //str1.compareTo(str2) this is right
+  //str2.compareTo(str3)
+  
+
     }
 }
