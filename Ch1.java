@@ -17,6 +17,21 @@ public static void main(String[] args){
      */
 
 
+/*
+ * Compiling: the process of “translating” code into binary
+Since modern programming IDEs have interpreters built in, programmers do not need to understand code directly.
+
+
+Compile-time error:
+Compiling is halted if one or more errors are found. It produces an error message for each one 
+(this is the “interactive” part of IDE). These errors found during compiling are called compile-time errors.
+
+
+Other Errors:
+Logical Erros- these erros emerge when the human programmer makes a logical mistake in their code
+Run time errors - basically an infinat loop where the code is never done 
+ */
+
 
 
 
