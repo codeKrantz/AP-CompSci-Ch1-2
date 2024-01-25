@@ -34,7 +34,10 @@ Run time errors - basically an infinat loop where the code is never done
 
 
 
-
+// Output
+System.out.println("Hello "); // println() means that the output will go on a brand new line. also ends the line  print() is used
+System.out.print("Beautiful ");
+System.out.print("World"); // print() simply means the output will be put on the current line
 
 }
 
